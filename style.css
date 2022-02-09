@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.header nav{
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background: #131834;
+    padding: 20px;
+    z-index: 999;
+}
+.header nav ul{
+    float: right;
+    position: relative;
+    top: -35px;
+    margin-right: 350px;
+}
+.header nav ul li{
+    display: inline-block;
+}
+.header nav ul li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.header nav .btns{
+    float: right;
+    position: absolute;
+    top: 25px;
+    right: 35px;
+}
+.header nav .btns a{
+    padding: 10px 20px;
+    background: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #131834;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.header nav .logo{
+    margin-top: -3px;
+    margin-left: 100px;
+}
+.header nav .logo a{
+    color: #fff;
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: 600;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 80px;
+    position: relative;
+    top: 80px;
+}
+section.banner{
+    background: #131834;
+}
+section.banner .banner_content{
+    padding: 50px 50px;
+    margin-top: 60px;
+}
+section.banner .banner_content .text{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+}
+section.banner .banner_content p{
+    font-size: 1.6em;
+    color: #fff;
+}
+section.banner .banner_content .eInput{
+    margin-top: 20px;
+    position: relative;
+}
+section.banner .banner_content .eInput input{
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    font-size: 1.2em;
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid #bfbfbf;
+}
+section.banner .banner_content .eInput #search_btn{
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    padding: 13px 20px;
+    border: none;
+    outline: none;
+    background: #516BEB;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+section.banner .banner_content .eInput input:focus{
+    border-color: #516BEB;
+}
